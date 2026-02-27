@@ -15,11 +15,7 @@ This project presents a **YOLOv8-based real-time object detection system** optim
 * 🧠 Full MLOps monitoring pipeline
 
 ## 🧠 Architecture
-flowchart LR
-    A[Live Camera Feed] --> B[Preprocessing 640x640]
-    B --> C[YOLOv8 Inference]
-    C --> D[Non-Max Suppression]
-    D --> E[Structured Detection Output]
+<img width="2471" height="164" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/72ab2aa1-d928-48d3-a072-df76d71d0076" />
 
 ## 🎯 Problem Statement
 
@@ -207,7 +203,7 @@ Dr. Sherif Salem
 
 ## 🏁 Conclusion
 
-This project goes beyond model training — it delivers a **deployable, monitored, edge-ready perception module** designed for safety-critical autonomous systems.
+This project goes beyond model training - it delivers a **deployable, monitored, edge-ready perception module** designed for safety-critical autonomous systems.
 
 It demonstrates full-stack ML engineering:
 From data engineering → model optimization → deployment → monitoring.
